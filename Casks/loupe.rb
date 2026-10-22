@@ -2,10 +2,10 @@ cask "loupe" do
   version "0.5.25"
   sha256 :no_check # ad-hoc / self-hosted release; swap for a real digest per version if you prefer
 
-  url "https://github.com/JiwonKKang/loupe-releases/releases/download/v#{version}/Loupe_#{version}_universal.dmg"
+  url "https://github.com/JiwonKKang/homebrew-loupe/releases/download/v#{version}/Loupe_#{version}_universal.dmg"
   name "Loupe"
   desc "Human-first code review desktop app (data-flow ordered, AI-assisted)"
-  homepage "https://github.com/JiwonKKang/loupe-releases"
+  homepage "https://github.com/JiwonKKang/homebrew-loupe"
 
   depends_on :macos
 
